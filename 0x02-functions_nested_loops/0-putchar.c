@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "putchar"
+#include "_putchar.h"
 /**
  * main - print putchar, followed by new line
  * Return: 0
@@ -7,12 +7,11 @@
 
 int main(void)
 {
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('a');
-	_putchar('r');
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i< 8; i++)
+		_putchar(word[i]);
 	_putchar('\n');
 
 	return (0);
