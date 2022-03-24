@@ -7,7 +7,7 @@
  * @src: source.
  * Return: the pointer to dest.
  */
-int main()
+char *_strcat(char *dest, char *src)
 {
 	char destination[] = "Hello ";
 	char source[] = "World!";
