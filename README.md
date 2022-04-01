@@ -8,3 +8,4 @@
 # C - Pointers_arrays_strings 2
 # C - Pointers_arrays_strings 3
 # C - Recursion
+# C - argc, argv
